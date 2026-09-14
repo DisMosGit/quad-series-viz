@@ -1,0 +1,27 @@
+# EditorConfig — https://editorconfig.org
+# Mechanical formatting rules only. There is no Prettier/ESLint in this repo:
+# `npm run build` (tsc -b && vite build) is the quality gate, so editors are
+# what keep whitespace consistent.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 140
+
+[*.md]
+# Hard line breaks in Markdown are meaningful; trailing spaces are intentional.
+trim_trailing_whitespace = false
+
+[*.{json,jsonc}]
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.png]
+insert_final_newline = false

@@ -4,6 +4,30 @@
   "version": "1.0.0",
   "type": "module",
   "description": "React + TypeScript component that renders 4 time-series sequences in one composed Recharts chart with a pastel \"vibe\" aesthetic.",
+  "license": "MIT",
+  "author": "DisMosGit",
+  "keywords": [
+    "react",
+    "typescript",
+    "recharts",
+    "chart",
+    "composed-chart",
+    "data-visualization",
+    "time-series",
+    "vite",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DisMosGit/quad-series-viz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DisMosGit/quad-series-viz/issues"
+  },
+  "homepage": "https://github.com/DisMosGit/quad-series-viz#readme",
+  "engines": {
+    "node": ">=20.19"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
